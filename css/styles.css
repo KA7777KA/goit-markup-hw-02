@@ -1,0 +1,57 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --white-color: #F4F4FD;
+}
+
+.body {
+    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+font-family: Roboto, sans-serif;
+}
+.logo {
+    color: var(--accent-color);
+}
+.site-nav :hover {
+    color: var(--title-text-color);
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.site-nav-info {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.hero {
+    color: #FFFFFF;
+  background-color: #2E2F42;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.1;
+}
+.end {
+    background-color: #2E2F42;
+}
+.end-page {
+    color: #E7E9FC;
+    font-size: 16px;
+        line-height: 1.5;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+.section-list {
+    color: var(--title-text-color);
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+}
