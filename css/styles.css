@@ -26,6 +26,12 @@ font-family: Roboto, sans-serif;
         font-size: 18px;
         line-height: 1.2;
 }
+.studio-end {
+    color: #F4F4FD;
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.2;
+}
 .site-nav :hover
 .site-nav:focus {
     color: var(--title-text-color);
