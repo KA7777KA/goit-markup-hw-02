@@ -2,32 +2,31 @@
     --primary-text-color: #434455;
     --title-text-color: #2E2F42;
     --accent-color: #4D5AE5;
-    --white-color: #F4F4FD;
+    --white-color: #FFFFFF;
 }
 
 .body {
     color: var(--primary-text-color);
     background-color: #FFFFFF;
 font-family: Roboto, sans-serif;
+font-size: 16px;
 }
 .logo:hover
 .logo:focus {
     color: var(--accent-color);
 }
-.web {
+.logo {
+    text-decoration: none;
+}
+ span {
     color: #4D5AE5;
     font-weight: 800;
         font-size: 18px;
         line-height: 1.2;
     }
-.studio {
-    color: var(--title-text-color);
-    font-weight: 800;
-        font-size: 18px;
-        line-height: 1.2;
-}
+
 .studio-end {
-    color: #F4F4FD;
+    color: var(--white-color);
     font-weight: 800;
         font-size: 18px;
         line-height: 1.2;
@@ -50,7 +49,7 @@ font-family: Roboto, sans-serif;
     line-height: 1.5;
 }
 .hero {
-    color: #FFFFFF;
+    color: var(--white-color);
   background-color: #2E2F42;
         font-weight: 600;
         font-size: 56px;
@@ -65,11 +64,11 @@ font-family: Roboto, sans-serif;
         line-height: 1.5;
 }
 .button-hero {
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: #4D5AE5;
 }
 .button-hero:active {
-color: #FFFFFF;
+color: var(--white-color);
 background-color: #404BBF;
 }
 .section-list {
@@ -93,6 +92,15 @@ background-color: #404BBF;
         background-color: #F4F4FD;
 }
 .button-portfolio:active {
-    color: #FFFFFF;
+    color:var(--white-color);
     background-color: var(--accent-color);
+}
+.link {
+    text-decoration: none;
+}
+.text {
+    color: #F4F4FD;
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.2;
 }
