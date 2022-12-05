@@ -10,6 +10,8 @@
     background-color: #FFFFFF;
 font-family: Roboto, sans-serif;
 font-size: 16px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 .logo:hover
 .logo:focus {
@@ -31,17 +33,6 @@ font-size: 16px;
         font-size: 18px;
         line-height: 1.2;
 }
-.site-nav :hover
-.site-nav:focus {
-    color: var(--title-text-color);
-    font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-}
-.site-nav:active{
-    color:var(--accent-color)
-
-}
 .site-nav-info :hover 
 .site-nav-info:focus {
     color: var(--primary-text-color);
@@ -49,11 +40,7 @@ font-size: 16px;
     line-height: 1.5;
 }
 .hero {
-    color: var(--white-color);
-  background-color: #2E2F42;
-        font-weight: 600;
-        font-size: 56px;
-        line-height: 1.1;
+    background-color: #2E2F42;
 }
 .end {
     background-color: #2E2F42;
@@ -62,6 +49,7 @@ font-size: 16px;
     color: #E7E9FC;
     font-size: 16px;
         line-height: 1.5;
+        text-decoration: none;
 }
 .button-hero {
     color: var(--white-color);
@@ -97,10 +85,31 @@ background-color: #404BBF;
 }
 .link {
     text-decoration: none;
+    color: var(--title-text-color);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.link:hover
+.link:active{
+    color: var(--accent-color)
+
 }
 .text {
     color: #F4F4FD;
     font-weight: 800;
         font-size: 18px;
         line-height: 1.2;
+}
+ul {
+    list-style: none;
+}
+.hero-title{
+    color: var(--white-color);
+    font-weight: 600;
+        font-size: 56px;
+        line-height: 1.1;
+}
+li a {
+    text-decoration: none;
 }
