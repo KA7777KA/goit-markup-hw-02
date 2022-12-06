@@ -33,11 +33,23 @@ text-transform: capitalize;
         font-size: 18px;
         line-height: 1.2;
 }
-.site-nav-info :hover 
-.site-nav-info:focus {
+.site-nav-info {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
+}
+.site-nav-info:hover{
+    color: var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.5;
+}
+.site-nav-info:focus{
+    color: var(--primary-text-color);
+        font-size: 16px;
+        line-height: 1.5;
+}
+.site-nav-info:active{
+    color: var(--accent-color);
 }
 .hero {
     background-color: #2E2F42;
@@ -90,7 +102,9 @@ background-color: #404BBF;
         font-size: 16px;
         line-height: 1.5;
 }
-.link:hover
+.link:hover{
+    color: var(--accent-color);
+}
 .link:active{
     color: var(--accent-color)
 
