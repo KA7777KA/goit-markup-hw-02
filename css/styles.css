@@ -101,12 +101,14 @@ background-color: #404BBF;
         text-transform: capitalize;
         cursor: pointer;
 }
-.button-portfolio:hover{
+.button-portfolio:hover,
+.button-portfolio:focus{
     font-weight: 600;
         line-height: 1.5;
         color: var(--accent-color);
         background-color: #F4F4FD;
         text-transform: capitalize;
+        cursor: pointer;
 }
 .button-portfolio:active {
     color:var(--white-color);
@@ -166,10 +168,9 @@ li a {
 }
 .section-subtitle{
     color: var(--title-text-color);
-        font-weight: 600;
-        font-size: 20px;
-            line-height: 1.2;
-        text-transform: capitalize;
+font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .end-page{
     color: #E7E9FC;
