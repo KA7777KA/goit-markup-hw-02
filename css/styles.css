@@ -94,19 +94,19 @@ background-color: #404BBF;
         text-transform: capitalize;
 }
 .button-portfolio {
-    font-weight: 600;
-        line-height: 1.5;
-        color: var(--accent-color);
-        background-color: #F4F4FD;
-        text-transform: capitalize;
-        cursor: pointer;
+        font-weight: 600;
+            line-height: 1.5;
+            color: var(--accent-color);
+            background-color: #F4F4FD;
+            text-transform: capitalize;
+            cursor: pointer;
 }
 .button-portfolio:hover,
-.button-portfolio:focus{
+.button-portfolio:focus {
     font-weight: 600;
         line-height: 1.5;
-        color: var(--accent-color);
-        background-color: #F4F4FD;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
         text-transform: capitalize;
         cursor: pointer;
 }
